@@ -96,8 +96,8 @@ $(function () {
             arrows: true,
             slidesToShow: 1,
             slidesToScroll: 1,
-            nextArrow: '<img class="contact__slider-rightArrow" src="../img/arrowRightWhite.png" alt="arrowRight"/>',
-            prevArrow: '<img class="contact__slider-leftArrow" src="../img/arrowLeftWhite.png" alt="arrowLeft"/>',
+            nextArrow: '<img class="contact__slider-rightArrow" src="./img/arrowRightWhite.png" alt="arrowRight"/>',
+            prevArrow: '<img class="contact__slider-leftArrow" src="./img/arrowLeftWhite.png" alt="arrowLeft"/>',
         })
     }
 
@@ -133,8 +133,8 @@ $(function () {
                 }
             },
         ],
-        nextArrow: '<img class="news__slider-rightArrow" src="../img/arrowRight.png" alt="arrowRight"/>',
-        prevArrow: '<img class="news__slider-leftArrow" src="../img/arrowLeft.png" alt="arrowLeft"/>',
+        nextArrow: '<img class="news__slider-rightArrow" src="./img/arrowRight.png" alt="arrowRight"/>',
+        prevArrow: '<img class="news__slider-leftArrow" src="./img/arrowLeft.png" alt="arrowLeft"/>',
     })
 
     $('.footer__slider').slick({
@@ -151,7 +151,7 @@ $(function () {
                 }
             },
         ],
-        nextArrow: '<img class="footer__slider-rightArrow" src="../img/arrowRight.png" alt="arrowRight"/>',
-        prevArrow: '<img class="footer__slider-leftArrow" src="../img/arrowLeft.png" alt="arrowLeft"/>',
+        nextArrow: '<img class="footer__slider-rightArrow" src="./img/arrowRight.png" alt="arrowRight"/>',
+        prevArrow: '<img class="footer__slider-leftArrow" src="./img/arrowLeft.png" alt="arrowLeft"/>',
     })
 });
