@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__content">
+            <div class="header__logo-plug"></div>
+            <div class="header__logo">
+                <img class="header__logo-img" src="./img/logo.png" alt="logo">
+            </div>
+            <div class="header__menu">
+                <div class="header__menu-item"><a class="header__menu-link" href="#">Branże</a></div>
+                <div class="header__menu-item"><a class="header__menu-link" href="#">Produkty</a></div>
+                <div class="header__menu-item"><a class="header__menu-link" href="#">Usługi</a></div>
+                <div class="header__menu-item"><a class="header__menu-link" href="#">Aktualności</a></div>
+                <div class="header__menu-item"><a class="header__menu-link" href="#">Kontakt</a></div>
+                <div class="header__menu-item"><a class="header__menu-link" href="#">Referencje</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="header__search">
+        <svg class="header__search-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M23.822 20.88l-6.353-6.354c.93-1.465 1.467-3.2 1.467-5.059.001-5.219-4.247-9.467-9.468-9.467s-9.468
+            4.248-9.468 9.468c0 5.221 4.247 9.469 9.468 9.469 1.768 0 3.421-.487 4.839-1.333l6.396 6.396
+            3.119-3.12zm-20.294-11.412c0-3.273 2.665-5.938 5.939-5.938 3.275 0 5.94 2.664 5.94 5.938 0 3.275-2.665
+            5.939-5.94 5.939-3.274 0-5.939-2.664-5.939-5.939z"/>
+        </svg>
+    </div>
+    <div class="header__search-inputBox">
+        <input class="header__search-input" type="text"/>
+    </div>
+</header>
+<nav class="nav-bar closeNav">
+    <div class="nav-bar__inner">
+        <ul class="nav-bar__list">
+            <li class="nav-bar__list-item dashed-line">
+                <a class="nav-bar-link" href="#">Menu</a>
+            </li>
+            <li class="nav-bar__list-item">
+                <a class="nav-bar-link" href="#">Branże</a>
+            </li>
+            <li class="nav-bar__list-item">
+                <a class="nav-bar-link" href="#">Produkty</a>
+            </li>
+            <li class="nav-bar__list-item">
+                <a class="nav-bar-link" href="#">Usługi</a>
+            </li>
+            <li class="nav-bar__list-item">
+                <a class="nav-bar-link" href="#">Aktualności</a>
+            </li>
+            <li class="nav-bar__list-item">
+                <a class="nav-bar-link" href="#">Referencja</a>
+            </li>
+            <li class="nav-bar__list-item dashed-line">
+                <a class="nav-bar-link" href="#">Kontakt</a>
+            </li>
+            <li class="nav-bar__list-item">
+                <a class="nav-bar-link" href="#">O firmie</a>
+            </li>
+            <li class="nav-bar__list-item">
+                <a class="nav-bar-link" href="#">Nagrody</a>
+            </li>
+            <li class="nav-bar__list-item">
+                <a class="nav-bar-link" href="#">Relacje</a>
+            </li>
+            <li class="nav-bar__list-item">
+                <a class="nav-bar-link" href="#">inwestorskie</a>
+            </li>
+            <li class="nav-bar__list-item">
+                <a class="nav-bar-link" href="#">Partnerzy</a>
+            </li>
+            <li class="nav-bar__list-item">
+                <a class="nav-bar-link" href="#">Kariera</a>
+            </li>
+            <li class="nav-bar__list-item dashed-line">
+                <a class="nav-bar-link" href="#">Strefa klienta</a>
+            </li>
+            <div class="nav-bar__list-socialBox">
+                <li class="nav-bar__list-item">
+                    <a class="nav-bar-link" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333
+                            1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav-bar__list-item">
+                    <a class="nav-bar-link" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5
+                        2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67
+                        6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/>
+                        </svg>
+                    </a>
+                </li>
+            </div>
+        </ul>
+    </div>
+    <div class="nav-bar__toggle-btn">
+        <svg class="nav-bar__toggle-btn-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+             viewBox="0 0 24 24">
+            <path d="M3 12l18-12v24z"/>
+        </svg>
+    </div>
+</nav>
+
+<section class="first-section">
+    <div class="main-slider">
+        <div class="main-slider__item" style="background-image: url('./img/mainSliderBg1.png')">
+            <div class="container">
+                <div class="main-slider__item-text">
+                    <span class="main-slider__item-title">SIMPLE</span>
+                    <span class="main-slider__item-description">- z nami biznes jest prostszy!</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="main-slider__item" style="background-image: url('./img/mainSliderBg2.png')">
+            <div class="container">
+                <div class="main-slider__item-text">
+                    <span class="main-slider__item-title">SIMPLE</span>
+                    <span class="main-slider__item-description">- z nami biznes jest prostszy!</span>
+                </div>
+            </div>
+        </div>
+        <div class="main-slider__item" style="background-image: url('./img/mainSliderBg3.png')">
+            <div class="container">
+                <div class="main-slider__item-text">
+                    <span class="main-slider__item-title">SIMPLE</span>
+                    <span class="main-slider__item-description">- z nami biznes jest prostszy!</span>
+                </div>
+            </div>
+        </div>
+        <div class="main-slider__item">
+            <div class="container">
+                <div class="main-slider__item-text">
+                    <span class="main-slider__item-title">SIMPLE</span>
+                    <span class="main-slider__item-description">- z nami biznes jest prostszy!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="newsletter">
+            <div class="newsletter__inner">
+                <svg class="newsletter__inner-icon" xmlns="http://www.w3.org/2000/svg"
+                     width="53" height="46" viewBox="0 0 24 24">
+                    <path d="M21.628 15.306l2.372 1.379-12.668 7.315-11.332-6.584 2.372-1.368 8.957 5.206
+                    10.299-5.948zm-10.487-11.438l.017-.003.175.182-.017.003c-.119.023-.216.06-.302.108-.102.06
+                    -.125.119-.063.155.062.037.153.023.369-.036.302-.075.518-.069.688.03.181.105.254.3-.111.51
+                    -.148.086-.325.142-.422.158l-.017.003-.186-.181.022-.007c.131-.023.273-.072.371-.128.108
+                    -.062.137-.125.063-.168-.068-.039-.159-.033-.352.02-.302.089-.541.083-.705-.013-.22
+                    -.128-.186-.326.094-.487.119-.07.245-.116.376-.146zm.015 1.357l-.314.181-.964
+                    -.382.639.569-.319.185-1.514-.544.318-.184 1.004.405-.678-.592.308-.178.987.395
+                    -.679-.573.307-.178.905.896zm-2.326.213l-.468.27.221.128.445-.256.25.145
+                    -.445.256.255.149.496-.286.25.145-.799.461-1.224-.712.77-.444.249.144zm
+                    -.001 1.13l-.308.178-1.271-.231.833.484-.28.161-1.223-.711.342-.198
+                    1.158.205-.754-.438.279-.161 1.224.711zm6.338-2.183l-7.6 4.389-.629
+                    -.366 7.601-4.389.628.366zm1.263.735l-1.898 1.096-.629-.365
+                    1.899-1.097.628.366zm-1.273 2.192l-2.538 1.465-1.887-1.096
+                    2.538-1.465 1.887 1.096zm-4.428 1.1l-1.899 1.096-.629-.366
+                    1.899-1.096.629.366zm6.959-2.561l-1.898 1.096-.629-.366
+                    1.899-1.096.628.366zm-5.702 3.291l-1.899 1.097-.629-.366
+                    1.899-1.096.629.365zm8.225-3.291l-7.551-4.389-10.138 5.853
+                    7.552 4.389 10.137-5.853zm3.789.733l-12.671 7.315-11.329-6.584
+                    12.668-7.315 11.332 6.584zm-11.671 9.047l-1.003.58-1.001-.583
+                    -7.968-4.631-2.357 1.36 11.332 6.584 12.668-7.315-2.359-1.372-9.312 5.377z"/>
+                </svg>
+                <p class="newsletter__inner-text"><span>Chcesz otrzymywać od nas Newsletter?</span></p>
+                <input class="newsletter__inner-input" placeholder="Newsletter ?" type="text" />
+            </div>
+            <button class="newsletter-btn">Zapisz się</button>
+        </div>
+    </div>
+</section>
+
+<section class="industries">
+    <div class="container">
+        <div class="title title--dash">
+            <div class="title__content">
+                <img class="title__content-img" src="./img/industriesIcon.png" alt="branze"/>
+                <h3 class="title__content-text">Branże</h3>
+            </div>
+        </div>
+        <div class="industries__content">
+            <div class="industries__content-item">
+                <img class="industries__content-img" src="./img/industrImg.png" alt="img">
+                <p class="industries__content-text">EDUKACJA</p>
+            </div>
+            <div class="industries__content-item">
+                <img class="industries__content-img" src="./img/industrImg.png" alt="img">
+                <p class="industries__content-text">Transport & Logistyka</p>
+            </div>
+            <div class="industries__content-item">
+                <img class="industries__content-img" src="./img/industrImg.png" alt="img">
+                <p class="industries__content-text">Produkcja</p>
+            </div>
+            <div class="industries__content-item">
+                <img class="industries__content-img" src="./img/industrImg.png" alt="img">
+                <p class="industries__content-text">Budownictwo</p>
+            </div>
+            <div class="industries__content-item">
+                <img class="industries__content-img" src="./img/industrImg.png" alt="img">
+                <p class="industries__content-text">Instytuty</p>
+            </div>
+            <div class="industries__content-item">
+                <img class="industries__content-img" src="./img/industrImg.png" alt="img">
+                <p class="industries__content-text">Medycyna</p>
+            </div>
+            <div class="industries__content-item">
+                <img class="industries__content-img" src="./img/industrImg2.png" alt="img">
+                <p class="industries__content-text">Handel</p>
+            </div>
+            <div class="industries__content-item">
+                <img class="industries__content-img" src="./img/industrImg2.png" alt="img">
+                <p class="industries__content-text">MSP</p>
+            </div>
+            <div class="industries__content-item">
+                <img class="industries__content-img" src="./img/industrImg2.png" alt="img">
+                <p class="industries__content-text">Administracja publiczna</p>
+            </div>
+        </div>
+        <p class="industries__text">
+            SIMPLE to znak rozpoznawczy szerokiej rodziny rozwiązań informatycznych wspomagających zarządzanie
+            obszarami: finansów, obrotu towarowego, personelu, procesu budownictwa, produkcji, łańcucha dostaw czy
+            relacji z klientami. Od ponad 24 lat dostarczamy wyspecjalizowane usługi integracji rozwiązań
+            informatycznych i doradztwa biznesowego. Nasze produkty i usługi znalazły uznanie ponad 3500 klientów.
+            Jesteśmy ludźmi, którzy doskonale znają Twój biznes. Opierając się na naszym doświadczeniu proponujemy
+            rozwiązania, które powstały w oparciu o
+            wiedzę zatrudnianych przez nas ekspertów, a które generalnie podnoszą rangę prowadzonych procesów
+            biznesowych i spełniają specyficzne wymagania przedsiębiorstw poszczególnych branż, zapewniając możliwość
+            odniesienia sukcesu w coraz silniej konkurencyjnym otoczeniu.
+        </p>
+    </div>
+</section>
+
+<section class="products">
+    <div class="container">
+        <div class="title title--dash">
+            <div class="title__content">
+                <img class="title__content-img" src="./img/openFolder.png" alt="openFolder"/>
+                <h3 class="title__content-text darkBlue-text">Produkty</h3>
+            </div>
+        </div>
+        <p class="products__text">
+            Nieustannie doskonalimy nasze produkty i usługi. Budujemy naszą ofertę z myślą o potrzebach biznesowych i
+            profilach branżowych naszych Klientów. <br/>
+            <span class="products__text-tab">Nasza</span> oferta obejmuje bogate portfolio innowacyjnych systemów
+            informatycznych kompleksowo wspomagających
+            zarządzanie - powstałych na bazie blisko dwudziestoletnich doświadczeń i liczbie ponad 23 tysięcy
+            użytkowników - wzbogacone kompetencjami związanymi z optymalnym doborem infrastruktury informatycznej i
+            profesjonalnymi usługami.
+        </p>
+        <div class="products__content">
+            <div class="products__content-item"><span class="products__content-text">wms</span></div>
+            <div class="products__content-item"><span class="products__content-text">simple.<br/>erp</span></div>
+            <div class="products__content-item"><span class="products__content-text">simple.<br/>sprint</span></div>
+            <div class="products__content-item"><span class="products__content-text">simple.<br/>crm</span></div>
+            <div class="products__content-item"><span class="products__content-text">microsoft dynamics crm 2011</span>
+            </div>
+            <div class="products__content-item"><span class="products__content-text">obieg dokumentów</span></div>
+            <div class="products__content-item"><span class="products__content-text">simple.<br/>bi</span></div>
+            <div class="products__content-item"><span class="products__content-text">simple.<br/>aps</span></div>
+            <div class="products__content-item"><span class="products__content-text">simple.<br/>scm</span></div>
+            <div class="products__content-item"><span class="products__content-text"><span
+                    class="lowercase--text">e</span>simple.<br/>karo hrms</span></div>
+        </div>
+    </div>
+</section>
+
+<section class="services">
+    <div class="container">
+        <div class="title title--dash">
+            <div class="title__content">
+                <img class="title__content-img" src="./img/tools.png" alt="tools"/>
+                <h3 class="title__content-text">Usługi</h3>
+            </div>
+        </div>
+        <div class="services__content">
+            <div class="services__content-column">
+                <div class="services__content__item">
+                    <img class="services__content__item-img" src="./img/people.png" alt="services__content__item-img">
+                    <p class="services__content__item-text">WDROŻENIA ERP, CRM, BI</p>
+                </div>
+                <div class="services__content__item">
+                    <img class="services__content__item-img" src="./img/chat.png" alt="services__content__item-img">
+                    <p class="services__content__item-text">DORADZTWO W ZAKRESIE INFRASTRUKTURY INFORMATYCZNEJ</p>
+                </div>
+            </div>
+            <div class="services__content-column">
+                <div class="services__content__item">
+                    <img class="services__content__item-img" src="./img/book.png" alt="services__content__item-img">
+                    <p class="services__content__item-text">SZKOLENIA</p>
+                </div>
+            </div>
+            <div class="services__content-column">
+                <div class="services__content__item">
+                    <img class="services__content__item-img" src="./img/people.png" alt="services__content__item-img">
+                    <p class="services__content__item-text">KONSULTING ERP, CRM, BI</p>
+                </div>
+                <div class="services__content__item">
+                    <img class="services__content__item-img" src="./img/money.png" alt="services__content__item-img">
+                    <p class="services__content__item-text">DOFINANSOWANIE I LEASING</p>
+                </div>
+            </div>
+        </div>
+        <p class="services__text">
+            SIMPLE zapewnia klientom profesjonalną pomoc przy realizacji wielowariantowych, indywidualnych rozwiązań
+            oferując usługi dzięki którym nasi Klienci szybko odnoszą konkretne korzyści biznesowe.<br/><br/>
+
+            Stawiamy do dyspozycji Państwa nasz doświadczony zespół programistów. Kompleksowo świadczymy usługi związane
+            z tworzeniem na zlecenie dedykowanego oprogramowania. Nasze doświadczenie obejmuje integrację systemów
+            wspomagających
+
+            zarządzanie z urządzeniami automatyki przemysłowej, wagami, dozownikami, a także systemami
+            telekomunikacyjnymi i centralami telefonicznymi.<br/><br/>
+
+            Nasi programiści są biegli w tworzeniu oprogramowania dla środowisk Microsoft Windows-SQL ( w tym SQL 2005 i
+            SQL 2012). Posiadamy doświadczenie w programowaniu z wykorzystaniem między innymi Power Builder, Visual
+            Basic, Studio.net, InfoMaker, CrystalReports.
+        </p>
+    </div>
+</section>
+
+<section class="news">
+    <div class="container">
+        <div class="title title--dash">
+            <div class="title__content">
+                <img class="title__content-img mirror" src="./img/reload.png" alt="branze"/>
+                <h3 class="title__content-text darkBlue-text">Aktualności</h3>
+            </div>
+        </div>
+        <div class="news__slider">
+            <div class="news__slider__item">
+                <img class="news__slider__item-img" src="./img/industrImg.png" alt="news__slider__item-img">
+                <p class="news__slider__item-date">1.06.2013</p>
+                <h5 class="news__slider__item-title">Lorem ipsum.</h5>
+                <p class="news__slider__item-text dashed-line w-50 ">
+                    <span>lorem ipsum, lorem ipsum
+                    lorem ipsumlorem
+                    lorem ipsum ipsum.
+                </span>
+                </p>
+                <a class="news__slider__item-link" href="#">więcej</a>
+            </div>
+            <div class="news__slider__item">
+                <img class="news__slider__item-img" src="./img/industrImg.png" alt="news__slider__item-img">
+                <p class="news__slider__item-date">1.06.2013</p>
+                <h5 class="news__slider__item-title">Lorem ipsum.</h5>
+                <p class="news__slider__item-text dashed-line w-50 ">
+                    <span>lorem ipsum, lorem ipsum
+                    lorem ipsumlorem
+                    lorem ipsum ipsum.
+                </span>
+                </p>
+                <a class="news__slider__item-link" href="#">więcej</a>
+            </div>
+            <div class="news__slider__item">
+                <img class="news__slider__item-img" src="./img/industrImg.png" alt="news__slider__item-img">
+                <p class="news__slider__item-date">1.06.2013</p>
+                <h5 class="news__slider__item-title">Lorem ipsum.</h5>
+                <p class="news__slider__item-text dashed-line w-50 ">
+                    <span>lorem ipsum, lorem ipsum
+                    lorem ipsumlorem
+                    lorem ipsum ipsum.
+                </span>
+                </p>
+                <a class="news__slider__item-link" href="#">więcej</a>
+            </div>
+            <div class="news__slider__item">
+                <img class="news__slider__item-img" src="./img/industrImg.png" alt="news__slider__item-img">
+                <p class="news__slider__item-date">1.06.2013</p>
+                <h5 class="news__slider__item-title">Lorem ipsum.</h5>
+                <p class="news__slider__item-text dashed-line w-50 ">
+                    <span>lorem ipsum, lorem ipsum
+                    lorem ipsumlorem
+                    lorem ipsum ipsum.
+                </span>
+                </p>
+                <a class="news__slider__item-link" href="#">więcej</a>
+            </div>
+            <div class="news__slider__item">
+                <img class="news__slider__item-img" src="./img/industrImg.png" alt="news__slider__item-img">
+                <p class="news__slider__item-date">1.06.2013</p>
+                <h5 class="news__slider__item-title">Lorem ipsum.</h5>
+                <p class="news__slider__item-text dashed-line w-50 ">
+                    <span>lorem ipsum, lorem ipsum
+                    lorem ipsumlorem
+                    lorem ipsum ipsum.
+                </span>
+                </p>
+                <a class="news__slider__item-link" href="#">więcej</a>
+            </div>
+            <div class="news__slider__item">
+                <img class="news__slider__item-img" src="./img/industrImg.png" alt="news__slider__item-img">
+                <p class="news__slider__item-date">1.06.2013</p>
+                <h5 class="news__slider__item-title">Lorem ipsum.</h5>
+                <p class="news__slider__item-text dashed-line w-50 ">
+                    <span>lorem ipsum, lorem ipsum
+                    lorem ipsumlorem
+                    lorem ipsum ipsum.
+                </span>
+                </p>
+                <a class="news__slider__item-link" href="#">więcej</a>
+            </div>
+            <div class="news__slider__item">
+                <img class="news__slider__item-img" src="./img/industrImg.png" alt="news__slider__item-img">
+                <p class="news__slider__item-date">1.06.2013</p>
+                <h5 class="news__slider__item-title">Lorem ipsum.</h5>
+                <p class="news__slider__item-text dashed-line w-50 ">
+                    <span>lorem ipsum, lorem ipsum
+                    lorem ipsumlorem
+                    lorem ipsum ipsum.
+                </span>
+                </p>
+                <a class="news__slider__item-link" href="#">więcej</a>
+            </div>
+            <div class="news__slider__item">
+                <img class="news__slider__item-img" src="./img/industrImg.png" alt="news__slider__item-img">
+                <p class="news__slider__item-date">1.06.2013</p>
+                <h5 class="news__slider__item-title">Lorem ipsum.</h5>
+                <p class="news__slider__item-text dashed-line w-50 ">
+                    <span>lorem ipsum, lorem ipsum
+                    lorem ipsumlorem
+                    lorem ipsum ipsum.
+                </span>
+                </p>
+                <a class="news__slider__item-link" href="#">więcej</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <div class="contact-container">
+        <div class="title title--dash">
+            <div class="title__content">
+                <img class="title__content-img" src="./img/man.png" alt="people"/>
+                <h3 class="title__content-text">Kontakt</h3>
+            </div>
+        </div>
+        <div class="contact__top">
+            <div class="contact__top-column">
+                <h4 class="contact__top-title">SIMPLE S.A.</h4>
+                <div class="contact__top__address">
+                    <span class="contact__top__address-item">ul. Bronisława Czecha 49/51</span>
+                    <span class="contact__top__address-item">04-555 Warszawa</span>
+                </div>
+                <div class="contact__top__phone">
+                    <span class="contact__top__phone-item">tel.:
+                        <a class="contact__top__phone-link" href="tel:(22) 812-58-98">(22) 812-58-98</a>
+                    </span>
+                    <span class="contact__top__phone-item">fax.:(22) 815-49-83</span>
+                </div>
+                <div class="contact__top__mail">
+                    <a class="contact__top__mail-link" href="mailto:simple@simple.com.pl">simple@simple.com.pl</a>
+                </div>
+            </div>
+            <div class="contact__top-column">
+                <h4 class="contact__top-title">SIMPLE S.A. <span class="capitalize--text">- Ośrodek
+                    Badawczo-Rozwojowy Lublin</span></h4>
+                <div class="contact__top__address">
+                    <span class="contact__top__address-item">ul. Wolska 11A/4</span>
+                    <span class="contact__top__address-item">20-411 Lublin</span>
+                </div>
+                <div class="contact__top__phone">
+                    <span class="contact__top__phone-item">tel. kom:
+                        <a class="contact__top__phone-link" href="tel:+48 696 001 286">+48 696 001 286</a>
+                    </span>
+                </div>
+                <div class="contact__top__mail">
+                    <a class="contact__top__mail-link" href="mailto:lublin@simple.com.pl">lublin@simple.com.pl</a>
+                </div>
+            </div>
+
+            <div class="contact__top-column">
+                <h4 class="contact__top-title">SIMPLE S.A. <span class="capitalize--text">- oddział Rzeszów </span></h4>
+                <div class="contact__top__address">
+                    <span class="contact__top__address-item">ul. Rejtana 53A</span>
+                    <span class="contact__top__address-item">35-326 Rzeszów</span>
+                </div>
+                <div class="contact__top__phone">
+                    <span class="contact__top__phone-item">tel. kom:
+                        <a class="contact__top__phone-link" href="tel:+48 696 001 235">+48 696 001 235</a>
+                    </span>
+                    <span class="contact__top__phone-item">fax.:(17) 865 42 41</span>
+                </div>
+                <div class="contact__top__mail">
+                    <a class="contact__top__mail-link" href="mailto:rzeszow@simple.com.pl">rzeszow@simple.com.pl</a>
+                </div>
+            </div>
+        </div>
+        <div class="title--dash"></div>
+        <div class="contact__hidden">
+            <div class="contact__top-column">
+                <h4 class="contact__top-title">ZADAJ PYTANIE</h4>
+                <a class="contact__content-mail" href="mailto:praca@simple.com.pl">praca@simple.com.pl</a>
+            </div>
+            <div class="contact__top-column">
+                <h4 class="contact__top-title">Praca</h4>
+                <p class="contact__content-text">
+                    Zainteresowane osoby prosimy o przesłanie CV
+                    wraz z listem motywacyjnym na adres:
+                </p>
+            </div>
+        </div>
+        <div class="contact__content">
+            <div class="contact__content-column">
+                <h4 class="contact__content-title">Zadaj Pytanie</h4>
+                <form class="contact__content__form" action="#" method="post">
+                    <input class="contact__content-input" type="text" name="firstLastName" placeholder="Imię&Nazwisko">
+                    <input class="contact__content-input" type="email" name="email" placeholder="Email">
+                    <input class="contact__content-input" type="number" name="phoneNumber" placeholder="Numer telefonu">
+                    <input class="contact__content-input" type="text" name="topic" placeholder="Temat">
+                    <textarea class="contact__content-textarea" name="content" placeholder="Treść zapytania"></textarea>
+                    <div class="contact__content__form-bottom">
+                        <fieldset class="contact__content-fildset">
+                            <legend class="contact__content-legend">Wybierz rodzaj prezentacji</legend>
+                            <div class="contact__content-wrapper">
+                                <label class="contact__content-radio-container">
+                                    <input class="contact__content-radio" type="radio" name="presentationType"
+                                           value="1"> W
+                                    siedzibie
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="contact__content-radio-container">
+                                    <input class="contact__content-radio" type="radio" name="presentationType"
+                                           value="2">
+                                    Multimedialna
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </fieldset>
+                        <input class="contact__content-btn" type="submit" value="Wyślij">
+                    </div>
+                </form>
+            </div>
+            <div class="contact__content-column">
+                <h4 class="contact__content-title text-align-center">Social Media</h4>
+                <div class="contact__content-imageWrapper">
+                    <img class="contact__content-img" src="./img/facebook.png" alt="img">
+                    <img class="contact__content-img" src="./img/twitter.png" alt="img">
+                    <img class="contact__content-img" src="./img/gplus.png" alt="img">
+                    <img class="contact__content-img" src="./img/linkedin.png" alt="img">
+                </div>
+            </div>
+            <div class="contact__content-column">
+                <h4 class="contact__content-title text-align-start">Praca</h4>
+                <p class="contact__content-text">
+                    Zainteresowane osoby prosimy o przesłanie CV
+                    wraz z listem motywacyjnym na adres:
+                </p>
+                <a class="contact__content-mail" href="mailto:praca@simple.com.pl">praca@simple.com.pl</a>
+                <a class="contact__content-mail" href="#">Zobacz nasze oferty...</a>
+            </div>
+        </div>
+        <div class="title--dash title--dash-contactPadding"></div>
+        <div class="contact__btn">
+            <a class="contact__btn-item" href="#">Powrót na górę strony</a>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__slider">
+                <img class="footer__slider-item" src="./img/footerLogo1.png" alt="img"/>
+                <img class="footer__slider-item" src="./img/footerLogo2.png" alt="img"/>
+                <img class="footer__slider-item" src="./img/footerLogo3.png" alt="img"/>
+                <img class="footer__slider-item" src="./img/footerLogo4.png" alt="img"/>
+                <img class="footer__slider-item" src="./img/footerLogo5.png" alt="img"/>
+                <img class="footer__slider-item" src="./img/footerLogo1.png" alt="img"/>
+                <img class="footer__slider-item" src="./img/footerLogo2.png" alt="img"/>
+                <img class="footer__slider-item" src="./img/footerLogo3.png" alt="img"/>
+                <img class="footer__slider-item" src="./img/footerLogo4.png" alt="img"/>
+                <img class="footer__slider-item" src="./img/footerLogo5.png" alt="img"/>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
