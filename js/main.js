@@ -9,6 +9,8 @@ $(function () {
     const contactContainer = $('.contact-container')
     const mainSliderDots = $('.main-slider-dots')
     const mainSliderItemText = $('.main-slider__item-text')
+    const mobileBreakPoint = 361
+    const tabletBreakPoint = 769
 
     function closeNav() {
         sideBar.addClass('closeNav')
@@ -41,7 +43,7 @@ $(function () {
     navBarBtn.click(() => toggleNav())
 
     function resizePage(type) {
-        if ($(window).width() <= 360) {
+        if ($(window).width() <= mobileBreakPoint) {
             return;
         }
 
@@ -50,7 +52,7 @@ $(function () {
 
         if (type === "minus") {
 
-            if ($(window).width() <= 768) {
+            if ($(window).width() <= tabletBreakPoint) {
                 container.animate({marginRight: `30`})
                 contactContainer.animate({marginRight: `30`})
                 return;
@@ -67,7 +69,7 @@ $(function () {
 
         if (type === "plus") {
 
-            if ($(window).width() <= 768) {
+            if ($(window).width() <= tabletBreakPoint) {
                 container.animate({marginRight: `84`})
                 contactContainer.animate({marginRight: `30`})
                 return;
@@ -103,12 +105,12 @@ $(function () {
 
     /////////// SLICK INIT ///////////////////
     $(window).resize(() => {
-        if ($(window).width() <= 360) {
+        if ($(window).width() <= mobileBreakPoint) {
             initContactSlider()
         }
     })
 
-    if ($(window).width() <= 360) {
+    if ($(window).width() <= mobileBreakPoint) {
         initContactSlider()
     }
 
@@ -125,7 +127,7 @@ $(function () {
         slidesToScroll: 1,
         responsive: [
             {
-                breakpoint: 360,
+                breakpoint: mobileBreakPoint,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -143,7 +145,7 @@ $(function () {
         slidesToScroll: 1,
         responsive: [
             {
-                breakpoint: 360,
+                breakpoint: mobileBreakPoint,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
