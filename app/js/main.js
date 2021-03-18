@@ -41,7 +41,7 @@ $(function () {
     navBarBtn.click(() => toggleNav())
 
     function resizePage(type) {
-        if ($(window).width() <= 320) {
+        if ($(window).width() <= 360) {
             return;
         }
 
@@ -96,19 +96,19 @@ $(function () {
             arrows: true,
             slidesToShow: 1,
             slidesToScroll: 1,
-            nextArrow: '<img class="contact__slider-rightArrow" src="../img/arrowRightWhite.png" alt="arrowRight"/>',
-            prevArrow: '<img class="contact__slider-leftArrow" src="../img/arrowLeftWhite.png" alt="arrowLeft"/>',
+            nextArrow: '<img class="contact__slider-rightArrow" src="./img/arrowRightWhite.png" alt="arrowRight"/>',
+            prevArrow: '<img class="contact__slider-leftArrow" src="./img/arrowLeftWhite.png" alt="arrowLeft"/>',
         })
     }
 
     /////////// SLICK INIT ///////////////////
     $(window).resize(() => {
-        if ($(window).width() <= 320) {
+        if ($(window).width() <= 360) {
             initContactSlider()
         }
     })
 
-    if ($(window).width() <= 320) {
+    if ($(window).width() <= 360) {
         initContactSlider()
     }
 
@@ -125,7 +125,7 @@ $(function () {
         slidesToScroll: 1,
         responsive: [
             {
-                breakpoint: 320,
+                breakpoint: 360,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -133,8 +133,8 @@ $(function () {
                 }
             },
         ],
-        nextArrow: '<img class="news__slider-rightArrow" src="../img/arrowRight.png" alt="arrowRight"/>',
-        prevArrow: '<img class="news__slider-leftArrow" src="../img/arrowLeft.png" alt="arrowLeft"/>',
+        nextArrow: '<img class="news__slider-rightArrow" src="./img/arrowRight.png" alt="arrowRight"/>',
+        prevArrow: '<img class="news__slider-leftArrow" src="./img/arrowLeft.png" alt="arrowLeft"/>',
     })
 
     $('.footer__slider').slick({
@@ -143,7 +143,7 @@ $(function () {
         slidesToScroll: 1,
         responsive: [
             {
-                breakpoint: 320,
+                breakpoint: 360,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -151,7 +151,7 @@ $(function () {
                 }
             },
         ],
-        nextArrow: '<img class="footer__slider-rightArrow" src="../img/arrowRight.png" alt="arrowRight"/>',
-        prevArrow: '<img class="footer__slider-leftArrow" src="../img/arrowLeft.png" alt="arrowLeft"/>',
+        nextArrow: '<img class="footer__slider-rightArrow" src="./img/arrowRight.png" alt="arrowRight"/>',
+        prevArrow: '<img class="footer__slider-leftArrow" src="./img/arrowLeft.png" alt="arrowLeft"/>',
     })
 });

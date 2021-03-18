@@ -1,5 +1,6 @@
 {
   "name": "gulp-start",
+  "homepage": "http://marodi-mykhailo.github.io/simple-pixel-perfect",
   "version": "1.0.0",
   "description": "start gulp",
   "main": "index.js",
@@ -14,6 +15,7 @@
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-concat": "^2.6.1",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.1.0",
     "gulp-uglify": "^3.0.2",
