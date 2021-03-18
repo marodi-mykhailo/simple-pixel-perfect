@@ -41,7 +41,7 @@ $(function () {
     navBarBtn.click(() => toggleNav())
 
     function resizePage(type) {
-        if ($(window).width() <= 320) {
+        if ($(window).width() <= 360) {
             return;
         }
 
@@ -103,12 +103,12 @@ $(function () {
 
     /////////// SLICK INIT ///////////////////
     $(window).resize(() => {
-        if ($(window).width() <= 320) {
+        if ($(window).width() <= 360) {
             initContactSlider()
         }
     })
 
-    if ($(window).width() <= 320) {
+    if ($(window).width() <= 360) {
         initContactSlider()
     }
 
@@ -125,7 +125,7 @@ $(function () {
         slidesToScroll: 1,
         responsive: [
             {
-                breakpoint: 320,
+                breakpoint: 360,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -143,7 +143,7 @@ $(function () {
         slidesToScroll: 1,
         responsive: [
             {
-                breakpoint: 320,
+                breakpoint: 360,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
